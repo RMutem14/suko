@@ -1,0 +1,144 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+@font-face {
+    font-family: 'dugffiti';
+    src: url(../font/Dugffiti-Regular.ttf);
+}
+
+body{
+    height: 100vh;
+    font-size: 16px;
+}
+
+a{
+    color: black;
+}
+
+
+/*header*/
+header{
+    background-image: url(../image/fond1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+
+header .center{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(0,0,0,0.1);
+    position: absolute;
+    top: 10px;
+    left: 29%;
+    width: 40%;
+    padding: 10px;
+    border-radius: 40px;
+    box-shadow: 0 6px 20px rgba(33, 23, 23, 0.9); 
+}
+
+header nav ul{
+    display: flex;
+}
+
+header nav ul a{
+    padding: 20px;
+    font-size: 20px;
+    background-color: rgba(241, 243, 243,0);
+    transition: 0.7s;
+}
+
+header nav ul a:hover{
+    background-color: #000;
+    color: red;
+    box-shadow: 0 6px 20px 0 rgba(250, 7, 7, 0.9);
+    padding: 5px 15px;
+    border-radius: 10px;
+}
+
+header .logo{
+    width: 40%;
+}
+
+header img{
+    width: 30%;
+    border-radius:70%;
+}
+
+header .detail{
+    display: flex;
+    padding-top: 42vh;
+    width: 100%;
+}
+
+header .accroche{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 3%;
+    margin-top: -19vh;
+}
+
+header .accroche h1{
+    width: 65%;
+    font-size: 50px;
+}
+
+header .accroche a{
+    background-color: rgb(235, 8, 8);
+    width: 10%;
+    padding:10px;
+    border-radius: 10px;
+    box-shadow: 0 6px 20px rgba(33, 23, 23, 0.9); 
+    transition: 0.8s;
+}
+
+header .accroche a:hover{
+    background-color:  rgba(241, 243, 243,0);
+}
+
+header .coordonne{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 3%;
+    background-color: rgba(241, 243, 243,0.1);
+    box-shadow: 0 6px 20px rgba(33, 23, 23, 0.9);
+    border-radius: 20px;
+    width: 30%;
+    margin-top: 25vh;
+    height: 30vh;
+}
+
+header .coordonne h2{
+    margin-bottom: 20px;
+}
+
+header .coordonne .social{
+    display: flex;
+    flex-direction: column;
+}
+
+
+header .coordonne .social a{
+    padding: 10px;
+    background-color: red;
+    margin-bottom: 5px;
+    transition: 0.8s;
+    border-radius: 15px;
+    font-weight: 400;
+}
+
+header .coordonne .social a:hover{
+    background-color:  rgba(241, 243, 243,0);
+}
+
+ 
